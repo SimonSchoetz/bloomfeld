@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+iframe {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+
+}
+
+body {
+    display: flex;
+    justify-content: center;
+}
+
+@media only screen and (max-width: 1135px) {
+    .outer-frame {
+        position: relative;
+        width: 550px;
+        height: 100vh;
+        overflow: hidden;
+    }
+    iframe {
+        top: -180px;
+        right: 380px;
+        width: 1400px;
+        height: calc(100% + 180px);
+        /* overflow: hidden; */
+    
+    }
+}
+@media only screen and (max-width: 535px) {
+    body {
+        display: block;
+    }
+}
