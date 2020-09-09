@@ -16,7 +16,7 @@ body {
     justify-content: center;
 }
 
-@media only screen and (max-width: 1135px) {
+/* @media only screen and (max-width: 1135px) {
     .outer-frame {
         position: relative;
         width: 550px;
@@ -28,7 +28,7 @@ body {
         right: 380px;
         width: 1400px;
         height: calc(100% + 180px);
-        /* overflow: hidden; */
+         overflow: hidden; 
     
     }
 }
@@ -37,3 +37,5 @@ body {
         display: block;
     }
 }
+
+*/
